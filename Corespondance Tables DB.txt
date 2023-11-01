@@ -1,0 +1,83 @@
+TABLE_CATALOG	TABLE_NAME	TABLE_CATALOG	TABLE_NAME	TABLE_CATALOG	TABLE_NAME
+		WebGRB	@_Menu		
+Serveur	AspNetRole	WebGRB	aspnetroles		
+Serveur	AspNetRoleclaims	WebGRB	aspnetroleclaims		
+Serveur	AspNetUsers	WebGRB	aspnetusers		
+Serveur	AspNetUsersclaims	WebGRB	aspnetuserclaims		
+Serveur	AspNetUserslogins	WebGRB	aspnetuserlogins		
+Serveur	AspNetUsersroles	WebGRB	aspnetuserroles		
+Serveur	AspNetUserstokens	WebGRB	aspnetusertokens		
+Serveur	Contact_GRB	WebGRB	Contact_GRB		
+Serveur	Contact_PermaRoute	WebGRB	Contact_PermaRoute		
+Serveur	GrbAchat	WebGRB	GrbAchat	Access	GRB_Achat
+Serveur	GrbAchatPiece	WebGRB	GrbAchatPiece	Access	GRB_Achat_Pieces
+Serveur	GrbAchatPiecesTampon	WebGRB	GrbAchatPiecesTampon	Access	GRB_Achat_Pieces_Tampon
+Serveur	GrbAlarme	WebGRB	GrbAlarme	Access	GRB_Alarmes
+Serveur	GrbAutorisationPunch	WebGRB	GrbAutorisationPunch	Access	GRB_AutorisationPunch
+Serveur	GrbBavardSuppression	WebGRB	GrbBavardSuppression	Access	GRB_BavardSuppression
+Serveur	GrbBonsCommande	WebGRB	GrbBonsCommande	Access	GRB_BonsCommandes
+Serveur	GrbBonsCommandesPiece	WebGRB	GrbBonsCommandesPiece	Access	GRB_BonsCommandes_Pieces
+Serveur	GrbCatalogueElec	WebGRB	GrbCatalogueElec	Access	GRB_CatalogueElec
+Serveur	GrbCatalogueMec	WebGRB	GrbCatalogueMec	Access	GRB_CatalogueMec
+Serveur	GrbCedule	WebGRB	GrbCedule	Access	GRB_cédule
+Serveur	GrbClient	WebGRB	GrbClient	Access	GRB_Client
+Serveur	GrbCommentaire	WebGRB	GrbCommentaire	Access	GRB_Commentaires
+Serveur	GrbConfig	WebGRB	GrbConfig	Access	GRB_Config
+Serveur	GrbContact	WebGRB	GrbContact	Access	GRB_contact
+Serveur	GrbContactClient	WebGRB	GrbContactClient	Access	GRB_ContactClient
+Serveur	GrbContactFr	WebGRB	GrbContactFr	Access	GRB_ContactFRS
+Serveur	GrbDessin	WebGRB	GrbDessin	Access	GRB_Dessins
+Serveur	GrbDoublon	WebGRB	GrbDoublon	Access	GRB_Doublons
+Serveur	GrbEmploye	WebGRB	GrbEmploye	Access	GRB_employés
+Serveur	GrbErreur	WebGRB	GrbErreur	Access	GRB_Erreurs
+Serveur	GrbExceptionsDl	WebGRB	GrbExceptionsDl	Access	GRB_ExceptionsDL
+Serveur	GrbFamille	WebGRB	GrbFamille	Access	GRB_Famille
+Serveur	GrbFournisseur	WebGRB	GrbFournisseur	Access	GRB_Fournisseur
+Serveur	GrbGroupe	WebGRB	GrbGroupe	Access	GRB_Groupes
+Serveur	GrbImpressionBonlivraison	WebGRB	GrbImpressionBonlivraison	Access	GRB_impression_bonlivraison
+Serveur	GrbImpressionDemandePrixElec	WebGRB	GrbImpressionDemandePrixElec	Access	GRB_ImpressionDemandePrixElec
+Serveur	GrbImpressionDemandePrixMec	WebGRB	GrbImpressionDemandePrixMec	Access	GRB_ImpressionDemandePrixMec
+Serveur	GrbImpressionDetailTemp	WebGRB	GrbImpressionDetailTemp	Access	GRB_ImpressionDetailTemps
+Serveur	GrbImpressionListePiece	WebGRB	GrbImpressionListePiece	Access	GRB_impression_ListePiece
+Serveur	GrbImpressionPoste	WebGRB	GrbImpressionPoste	Access	GRB_ImpressionPoste
+Serveur	GrbImpressionPunch	WebGRB	GrbImpressionPunch	Access	GRB_ImpressionPunch
+Serveur	GrbImpressionSommairePunchGeneral	WebGRB	GrbImpressionSommairePunchGeneral	Access	GRB_ImpressionSommairePunchGeneral
+Serveur	GrbImpressionSommairePunchGrb	WebGRB	GrbImpressionSommairePunchGrb	Access	GRB_ImpressionSommairePunchGRB
+Serveur	GrbImpressionSoumission	WebGRB	GrbImpressionSoumission	Access	GRB_impression_soumission
+Serveur	GrbInventaireElec	WebGRB	GrbInventaireElec	Access	GRB_InventaireElec
+Serveur	GrbInventaireElecModif	WebGRB	GrbInventaireElecModif	Access	GRB_InventaireElecModif
+Serveur	GrbInventaireMec	WebGRB	GrbInventaireMec	Access	GRB_InventaireMec
+Serveur	GrbInventaireMecModif	WebGRB	GrbInventaireMecModif	Access	GRB_InventaireMecModif
+Serveur	GrbNombreMeats			Access	GRB_NombreMeats
+Serveur	GrbOutil	WebGRB	GrbOutil	Access	GRB_Outils
+Serveur	GrbOutilsInOut	WebGRB	GrbOutilsInOut	Access	GRB_Outils_In_out
+Serveur	GrbPiecesFr	WebGRB	GrbPiecesFr	Access	GRB_PiecesFRS
+Serveur	GrbProjetDessins	WebGRB	GrbProjetsDessins	Access	GRB_ProjetsDessins
+Serveur	GrbProjetElec	WebGRB	GrbProjetElec	Access	GRB_ProjetElec
+Serveur	GrbProjetMec	WebGRB	GrbProjetMec	Access	GRB_ProjetMec
+Serveur	GrbProjetModif	WebGRB	GrbProjetModif	Access	GRB_Projet_Modif
+Serveur	GrbProjetPiece	WebGRB	GrbProjetPiece	Access	GRB_Projet_Pieces
+Serveur	GrbProjetPiecesTampon	WebGRB	GrbProjetPiecesTampon	Access	GRB_Projet_Pieces_Tampon
+Serveur	GrbProjSoum	WebGRB	GrbProjSoum	Access	GRB_ProjSoum
+Serveur	GrbPunch	WebGRB	GrbPunch	Access	GRB_Punch
+Serveur	GrbPunchExcel	WebGRB	GrbPunchExcel	Access	GRB_PunchExcel
+Serveur	GrbSortieMateriel	WebGRB	GrbSortieMateriel	Access	GRB_SortieMatériel
+Serveur	GrbSoumissionElec	WebGRB	GrbSoumissionElec	Access	GRB_SoumissionElec
+Serveur	GrbSoumissionMec	WebGRB	GrbSoumissionMec	Access	GRB_SoumissionMec
+Serveur	GrbSoumissionModif	WebGRB	GrbSoumissionModif	Access	GRB_Soumission_Modif
+Serveur	GrbSoumissionPiece	WebGRB	GrbSoumissionPiece	Access	GRB_Soumission_Pieces
+Serveur	GrbSoumissionPiecesTampon	WebGRB	GrbSoumissionPiecesTampon	Access	GRB_Soumission_Pieces_Tampon
+Serveur	GrbSoumProjSectionElec	WebGRB	GrbSoumProjSectionElec	Access	GRB_SoumProjSectionElec
+Serveur	GrbSoumProjSectionMec	WebGRB	GrbSoumProjSectionMec	Access	GRB_SoumProjSectionMec
+Serveur	GrbTempDp	WebGRB	GrbTempDp	Access	GRB_TempDP
+Serveur	GrbTempInventaire	WebGRB	GrbTempInventaire	Access	GRB_TempInventaire
+Serveur	GrbTransport	WebGRB	GrbTransport	Access	GRB_Transport
+Serveur	GrbVendeur	WebGRB	GrbVendeur	Access	GRB_vendeur
+Serveur	NetRoles	WebGRB	NetRoles		
+Serveur	NetUsers	WebGRB	NetUsers		
+Serveur	Outlook	WebGRB	Outlook		
+Serveur	ProjetPieceBack	WebGRB	ProjetPieceBack	Access	Projet_piece_back
+Serveur	ProjetTamponBack	WebGRB	ProjetTamponBack	Access	projet_tampon_back
+Serveur	TableDesErreur	WebGRB	TableDesErreur	Access	Table des erreurs
+Serveur	TblCategorie	WebGRB	TblCategorie	Access	TBL_Categorie
+Serveur	TblPunchType	WebGRB	TblPunchType	Access	TBL_Punch_Type

@@ -1,0 +1,127 @@
+SQL Server 2000 Standard Security
+Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+Trusted connection
+Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=Yes;
+Using a non-standard port
+Driver={SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+SQL Server 7.0
+Prompt for username and password
+oConn.Properties("Prompt") = adPromptAlways
+oConn.Open "Driver={SQL Server};Server=myServerAddress;Database=myDataBase;"
+Standard Security
+Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+Trusted connection
+Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=Yes;
+Using a non-standard port
+Driver={SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+Prompt for username and password
+oConn.Properties("Prompt") = adPromptAlways
+oConn.Open "Driver={SQL Server};Server=myServerAddress;Database=myDataBase;"
+
+SQL Server 2019
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Equivalent key-value pair: "Integrated Security=SSPI" equals "Trusted_Connection=yes"
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
+
+SQL Server 2017
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Equivalent key-value pair: "Integrated Security=SSPI" equals "Trusted_Connection=yes"
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Using SQL Server Express? The server name syntax is ServerName\SQLEXPRESS where you substitute ServerName with the name of the server where SQL Server Express is running.
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Equivalent key-value pair: "Integrated Security=SSPI" equals "Trusted_Connection=yes"
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Using SQL Server Express? The server name syntax is ServerName\SQLEXPRESS where you substitute ServerName with the name of the server where SQL Server Express is running.
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+If your SQL Server listens on a non-default port you can specify that using the servername,xxxx syntax (note the comma, it's not a colon).
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Standard security
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Using SQL Server Express? The server name syntax is ServerName\SQLEXPRESS where you substitute ServerName with the name of the server where SQL Server Express is running.
+Trusted Connection
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=yes;
+Connecting to an SQL Server instance
+Driver={ODBC Driver 17 for SQL Server};Server=serverName\instanceName;Database=myDataBase;Trusted_Connection=yes;
+Using a non-standard port
+Driver={ODBC Driver 17 for SQL Server};Server=myServerName,myPortNumber;Database=myDataBase;UID=myUsername;PWD=myPassword;
+Enable MARS
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;MARS_Connection=yes;
+Encrypt data sent over network
+Driver={ODBC Driver 17 for SQL Server};Server=serverAddress;Database=databaseName;Trusted_Connection=yes;Encrypt=yes;
+Attach a database file on connect to a local SQL Server Express instance
+Driver={ODBC Driver 17 for SQL Server};Server=.\SQLExpress;AttachDBFileName=c:\dir\\mydb.mdf;Database=dbName;Trusted_Connection=yes;
+Database mirroring
+Driver={ODBC Driver 17 for SQL Server};Server=myServerAddress;Failover_Partner=myMirrorServerAddress;Database=myDataBase;Trusted_Connection=yes;
